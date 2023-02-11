@@ -1,4 +1,5 @@
 import React, { Fragment } from 'react';
+import { Link } from 'react-router-dom';
 
 function men() {
 	return (
@@ -30,7 +31,7 @@ function men() {
 								<div className="col-sm-12 text-left menu-1">
 									<ul>
 										<li>
-											<a href="index.html">Home</a>
+											<Link to="/">Home</Link>
 										</li>
 										<li className="has-dropdown active">
 											<a href="men.html">Men</a>
@@ -53,18 +54,18 @@ function men() {
 											</ul>
 										</li>
 										<li>
-											<a href="women.html">Women</a>
+											<Link to="/women">Women</Link>
 										</li>
 										<li>
-											<a href="about.html">About</a>
+											<Link to="/about">About</Link>
 										</li>
 										<li>
-											<a href="contact.html">Contact</a>
+											<Link to="/contact">Contact</Link>
 										</li>
 										<li className="cart">
-											<a href="cart.html">
+											<Link to="/cart">
 												<i className="icon-shopping-cart" /> Cart [0]
-											</a>
+											</Link>
 										</li>
 									</ul>
 								</div>
@@ -107,7 +108,7 @@ function men() {
 							<div className="col">
 								<p className="bread">
 									<span>
-										<a href="index.html">Home</a>
+										<Link to="/">Home</Link>
 									</span>{' '}
 									/ <span>Men</span>
 								</p>

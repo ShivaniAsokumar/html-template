@@ -13,7 +13,7 @@ function About() {
 							<div className="row">
 								<div className="col-sm-7 col-md-9">
 									<div id="colorlib-logo">
-										<a href="index.html">Footwear</a>
+										<Link to="/">Footwear</Link>
 									</div>
 								</div>
 								<div className="col-sm-5 col-md-3">
@@ -54,18 +54,18 @@ function About() {
 											</ul>
 										</li>
 										<li>
-											<a href="women.html">Women</a>
+											<Link to="/women">Women</Link>
 										</li>
 										<li className="active">
-											<a href="about.html">About</a>
+											<Link to="/about">About</Link>
 										</li>
 										<li>
-											<a href="contact.html">Contact</a>
+											<Link to="/contact">Contact</Link>
 										</li>
 										<li className="cart">
-											<a href="cart.html">
+											<Link to="/cart">
 												<i className="icon-shopping-cart" /> Cart [0]
-											</a>
+											</Link>
 										</li>
 									</ul>
 								</div>

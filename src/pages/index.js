@@ -66,9 +66,6 @@ function Index() {
 											<Link to="/cart">
 												<i className="icon-shopping-cart" /> Cart [0]
 											</Link>
-											{/* <a href="#">
-												<i className="icon-shopping-cart" /> Cart [0]
-											</a> */}
 										</li>
 									</ul>
 								</div>

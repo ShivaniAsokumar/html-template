@@ -1,4 +1,5 @@
 import React, { Fragment } from 'react';
+import { Link } from 'react-router-dom';
 
 function Contact() {
 	return (
@@ -12,7 +13,7 @@ function Contact() {
 							<div className="row">
 								<div className="col-sm-7 col-md-9">
 									<div id="colorlib-logo">
-										<a href="index.html">Footwear</a>
+										<Link to="/">Footwear</Link>
 									</div>
 								</div>
 								<div className="col-sm-5 col-md-3">
@@ -30,10 +31,10 @@ function Contact() {
 								<div className="col-sm-12 text-left menu-1">
 									<ul>
 										<li>
-											<a href="index.html">Home</a>
+											<Link to="/">Home</Link>
 										</li>
 										<li className="has-dropdown">
-											<a href="men.html">Men</a>
+											<Link to="/men">Men</Link>
 											<ul className="dropdown">
 												<li>
 													<a href="product-detail.html">Product Detail</a>
@@ -53,18 +54,18 @@ function Contact() {
 											</ul>
 										</li>
 										<li>
-											<a href="women.html">Women</a>
+											<Link to="/women">Women</Link>
 										</li>
 										<li>
-											<a href="about.html">About</a>
+											<Link to="/about">About</Link>
 										</li>
 										<li className="active">
-											<a href="contact.html">Contact</a>
+											<Link to="/contact">Contact</Link>
 										</li>
 										<li className="cart">
-											<a href="cart.html">
+											<Link to="/cart">
 												<i className="icon-shopping-cart" /> Cart [0]
-											</a>
+											</Link>
 										</li>
 									</ul>
 								</div>
@@ -107,7 +108,7 @@ function Contact() {
 							<div className="col">
 								<p className="bread">
 									<span>
-										<a href="index.html">Home</a>
+										<Link to="/">Home</Link>
 									</span>{' '}
 									/ <span>Contact</span>
 								</p>
