@@ -158,13 +158,20 @@ function Index() {
 						<div className="row row-pb-md">
 							<div className="col-lg-3 mb-4 text-center">
 								<div className="product-entry border">
-									<a href="#" className="prod-img">
+									{/* <a href="#" className="prod-img">
 										<img
 											src="assets/images/item-1.jpg"
 											className="img-fluid"
 											alt="Free html5 bootstrap 4 template"
 										/>
-									</a>
+									</a> */}
+									<Link to="/product-detail" className="prod-img">
+										<img
+											src="assets/images/item-1.jpg"
+											className="img-fluid"
+											alt="Free html5 bootstrap 4 template"
+										/>
+									</Link>
 									<div className="desc">
 										<h2>
 											<a href="#">Women's Boots Shoes Maca</a>

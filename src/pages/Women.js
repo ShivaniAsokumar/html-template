@@ -594,35 +594,35 @@ function women() {
 						<div className="row">
 							<div className="col partner-col text-center">
 								<img
-									src="images/brand-1.jpg"
+									src="assets/images/brand-1.jpg"
 									className="img-fluid"
 									alt="Free html4 bootstrap 4 template"
 								/>
 							</div>
 							<div className="col partner-col text-center">
 								<img
-									src="images/brand-2.jpg"
+									src="assets/images/brand-2.jpg"
 									className="img-fluid"
 									alt="Free html4 bootstrap 4 template"
 								/>
 							</div>
 							<div className="col partner-col text-center">
 								<img
-									src="images/brand-3.jpg"
+									src="assets/images/brand-3.jpg"
 									className="img-fluid"
 									alt="Free html4 bootstrap 4 template"
 								/>
 							</div>
 							<div className="col partner-col text-center">
 								<img
-									src="images/brand-4.jpg"
+									src="assets/images/brand-4.jpg"
 									className="img-fluid"
 									alt="Free html4 bootstrap 4 template"
 								/>
 							</div>
 							<div className="col partner-col text-center">
 								<img
-									src="images/brand-5.jpg"
+									src="assets/images/brand-5.jpg"
 									className="img-fluid"
 									alt="Free html4 bootstrap 4 template"
 								/>

@@ -5,6 +5,7 @@ import Men from './pages/Men';
 import Women from './pages/Women';
 import Contact from './pages/Contact';
 import Cart from './pages/Cart';
+import ProductDetail from './pages/ProductDetail';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 function App() {
 	return (
@@ -17,6 +18,7 @@ function App() {
 					<Route path="/women" element={<Women />} />
 					<Route path="/contact" element={<Contact />} />
 					<Route path="/cart" element={<Cart />} />
+					<Route path="/product-detail" element={<ProductDetail />} />
 				</Routes>
 			</Router>
 		</div>
