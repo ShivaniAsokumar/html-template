@@ -34,7 +34,7 @@ function men() {
 											<Link to="/">Home</Link>
 										</li>
 										<li className="has-dropdown active">
-											<a href="men.html">Men</a>
+											<Link to="/men">Men</Link>
 											<ul className="dropdown">
 												<li>
 													<a href="product-detail.html">Product Detail</a>

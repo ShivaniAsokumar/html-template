@@ -1,5 +1,6 @@
 import React, { Fragment } from 'react';
 import { Link } from 'react-router-dom';
+import Header from '../components/Header';
 
 function Index() {
 	return (
@@ -13,7 +14,7 @@ function Index() {
 							<div className="row">
 								<div className="col-sm-7 col-md-9">
 									<div id="colorlib-logo">
-										<a href="index.html">Footwear</a>
+										<Link to="/">Footwear</Link>
 									</div>
 								</div>
 								<div className="col-sm-5 col-md-3">
